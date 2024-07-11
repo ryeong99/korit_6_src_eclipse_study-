@@ -41,7 +41,7 @@ import com.study.dvd.config.DBConfig;
 public class DBConnectionMgr {
 
     private Vector connections = new Vector(10);
-    private String _driver = "com,mysql.cj.jdbc.Driver",
+    private String _driver = "com.mysql.cj.jdbc.Driver",
     _url = DBConfig.URL,
     _user = DBConfig.USERNAME,
     _password = DBConfig.PASSWORD;
